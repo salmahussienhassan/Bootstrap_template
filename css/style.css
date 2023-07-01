@@ -25,6 +25,7 @@ p{
     background-color: rgba(0,0,0,0.3),var(--bs-bg-opacity)!important;
 }
 nav li a{
+    width: fit-content;
     position: relative;
 }
 nav li a::after {
@@ -34,11 +35,11 @@ nav li a::after {
     background-color: #fff;
     position: absolute;
     bottom: 8px;
-    left: 10%;
+    left: 0px;
     transition: all 0.5s;
 }
 nav li a.active::after {
-    width: 85%;
+    width: 100%;
 }
 
 /* home */
