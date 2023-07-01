@@ -1,0 +1,33 @@
+@media screen and (min-width:0px) and (max-width:600px){
+    .navbar-collapse{
+        background-color: white !important;
+
+    }
+    .navbar-collapse li{
+       margin: auto
+    }
+    .navbar-collapse a{
+        color: black !important;
+    }
+    .navbar-collapse a::after{
+        background-color: black !important;
+    }
+}
+/* sm */
+@media screen and (min-width:601px) and (max-width:768px){
+    
+    .navbar-collapse{
+        background-color: white !important;
+        text-align: center;
+    }
+    .navbar-collapse li{
+        margin: auto
+     }
+    .navbar-collapse a{
+        color: black !important;
+    }
+    .navbar-collapse a::after{
+        background-color: black !important;
+    }
+    
+}
